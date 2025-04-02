@@ -13,7 +13,7 @@
   "license": "MIT",
   "description": "The Routine Model Context Protocol server, allowing AI clients to interact with Routine",
   "bin": {
-    "mcp-server": "./dist/index.js"
+    "mcp-server": "dist/index.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.7.0",
