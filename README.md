@@ -1,8 +1,30 @@
-# Model Context Protocol Server
+# Routine Model Context Protocol (MCP) Server
 
-This is a Routine [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server.
+This is the Routine [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server.
 
-## Installation
+## Usage
+
+1. Run the [Routine](https://routine.co/download) application for the MCP server to work.
+2. Run this MCP server with `npx routine-mcp-server` or configure it in your favorite MCP client.
+
+### Claude Desktop
+
+For Claude Desktop, refer to https://modelcontextprotocol.io/quickstart/user
+
+In particular, your file `claude_desktop_config.json` should look something like that:
+
+```json
+{
+  "mcpServers": {
+    "routine": {
+      "command": "npx",
+      "args": ["routine-mcp-server"]
+    }
+  }
+}
+```
+
+## Development
 
 ```bash
 # Install dependencies
@@ -33,12 +55,6 @@ In particular, your file `claude_desktop_config.json` should look something like
   }
 }
 ```
-
-## Usage
-
-### Running the Routine controller
-
-The Routine application must run for the MCP server to communicate with it.
 
 ### Running the MCP Server (development)
 
