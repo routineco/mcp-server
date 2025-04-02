@@ -67,8 +67,8 @@ async function main() {
 
   // Connect to WebSocket
   function connectWebsocket() {
-    logger.info("Connecting to WebSocket at ws://localhost:8765...");
-    const ws = new WebSocket("ws://localhost:8765");
+    logger.info("Connecting to WebSocket at ws://127.0.0.1:8765...");
+    const ws = new WebSocket("ws://127.0.0.1:8765");
 
     ws.on("open", () => {
       logger.info("WebSocket connection established");
