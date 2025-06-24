@@ -2,6 +2,10 @@
 
 This is the Routine [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server.
 
+<a href="https://glama.ai/mcp/servers/@routineco/mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@routineco/mcp-server/badge" alt="Routine MCP server" />
+</a>
+
 ## Usage
 
 1. Run the [Routine](https://routine.co/download) application for the MCP server to work.
